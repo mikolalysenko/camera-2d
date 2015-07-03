@@ -14,10 +14,10 @@ function Camera2D(angle, scale, tx, ty, width, height) {
 var proto = Camera2D.prototype
 
 proto.getMatrix = function(out) {
-  var s = Math.exp(this.logscale)
+  var s = Math.exp(this.logScale)
   var cx = Math.cos(this.angle)
   var cy = Math.sin(this.angle)
-  var h = canvas.width / canvas.height
+  var h = this.width / this.height
 
   out = out || new Array(9)
   out[0] = s*cx
@@ -40,7 +40,7 @@ proto.scaleRotate = function(dscale, dangle, lastX, lastY) {
   var ty = this.ty
   var h = this.width / this.height
 
-  this.angle += drotate
+  this.angle += dangle
   this.logScale += Math.log(dscale)
 
   var ns = Math.exp(this.logScale)
