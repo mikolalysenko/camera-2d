@@ -1,0 +1,38 @@
+{
+  "name": "camera-2d",
+  "version": "1.0.0",
+  "description": "2D camera controller for visualizations",
+  "main": "camera.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/camera-2d.git"
+  },
+  "keywords": [
+    "camera",
+    "2d",
+    "rotation",
+    "scale",
+    "zoom",
+    "translate",
+    "pan",
+    "matrix",
+    "webgl"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/camera-2d/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/camera-2d"
+}
