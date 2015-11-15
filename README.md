@@ -49,10 +49,10 @@ Applies a scale/roation to the camera about some point
 * `centerX` is the x-component of the center of the scale/rotation
 * `centerY` is the y-component of the center of the scale/rotation
 
-#### `camera.pan(dx, dy)`
-Pans the camera by some amount
+#### `camera.translate(dx, dy)`
+Pans the camera by some amount (dx, dy).
 
-* `dx,dy` are the components of the pan vector
+* `dx,dy` are the components of the translation vector
 
 # License
 (c) 2015 Mikola Lysenko. MIT License
