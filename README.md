@@ -1,12 +1,12 @@
-# game-camera-2d
+# camera-2d
 
-> A simple 2D camera suited for games.
+> A simple 2D camera suited for games and visualizations.
 
 
 # Install
 
 ```bash
-$ npm install game-camera-2d
+$ npm install camera-2d
 ```
 
 
@@ -45,7 +45,7 @@ Float32Array {
 
 # API
 
-## var camera = require('game-camera-2d')(options)
+## var camera = require('camera-2d')(options)
 
 Creates a new camera object. The `options` object contains the following
 optional parameters:
