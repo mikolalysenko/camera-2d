@@ -1,6 +1,6 @@
 {
   "name": "camera-2d",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "2D camera controller for games and visualizations",
   "main": "index.js",
   "directories": {
